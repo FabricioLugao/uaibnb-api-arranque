@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const BASE_ID = 'appqkjRYvyIwSHLR7'
 const TABLE_NAME = 'locacoes'
 const API_URL = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_NAME}`
-const TOKEN = 'patbG5cw2lF4cS5xW.888c2f44b0799d47fe3c96b555aac12f8fcf910c898c5b4ccde4467cfb2f87bf'
+const TOKEN = 'SUA_API_KEY_AQUI'
 
 function LocacoesPage() {
   const [locacoes, setLocacoes] = useState([])
